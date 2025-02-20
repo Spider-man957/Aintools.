@@ -43,15 +43,28 @@ header {
   font-family: Poppins;
   font-size: 22px;
   color: #ffffff;
+  margin-left: 10px;
 }
 .first-menu-header {
   display: flex;
   align-items: center;
   justify-content: space-between;
   height: 24px;
-  width: 431px;
+  width: 500px;
   margin-left: 257px;
   font-size: 16px;
+}
+.first-menu-header > li:nth-child(1) {
+  width: 47px;
+}
+.first-menu-header > li:nth-child(2) {
+  width: 107px;
+}
+.first-menu-header > li:nth-child(3) {
+  width: 116px;
+}
+.first-menu-header > li:nth-child(4) {
+  width: 33px;
 }
 .li-with-chervon {
   display: flex;
@@ -253,6 +266,14 @@ input:focus {
   background-color: transparent;
   border: 2px solid #ffffff10;
   color: #ff6e30;
+}
+.section2-4:hover {
+  width: 184px;
+  height: 64px;
+  color: #ffffff;
+  border-radius: 8px;
+  border: none;
+  background-color: #ff6e30;
 }
 /* section3 */
 .section3 {
